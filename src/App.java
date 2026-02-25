@@ -8,9 +8,10 @@ public class App {
         Customer c2 = new Customer(2, "juanito", "perez", 26, "juanito.perez@example.com");
 
         MySqlCRUD conn = new MySqlCRUD();
+
         
-
-
+        conn.insertCustomer(c1);
+        conn.insertCustomer(c2);
         
     }
 }
